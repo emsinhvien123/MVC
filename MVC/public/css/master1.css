@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 100%;
+    padding: 0;
+}
+
+#wrap-content{
+    border: solid 1px black;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    
+} 
+
+#wrap-content .left-col-menu{
+    width: 20%;
+    height: 100vh; /* Sử dụng 100% chiều cao của viewport */
+    background-color: #f2f2f2; /* Màu nền xám nhạt */
+    border: solid 1px red;
+    
+}
+
+#wrap-header{
+    width: 100%;
+}
+
+#wrap-content .right-col-content{
+    width: 79%;
+    height: 500px;
+    border: 1px solid yellow;
+    float: right;
+}
